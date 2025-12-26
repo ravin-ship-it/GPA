@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale= 1.0">
+    <title>Using Table Tag</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            /* min-height: 100dvh; */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            /* justify-content: space-evenly; */
+        }
+
+        h2 {
+            margin: 1rem;
+            background: linear-gradient(45deg, purple, teal, cyan);
+            color: transparent;
+            background-clip: text;
+            -webkit-background-clip: text;
+
+        }
+
+        table {
+            border-collapse: collapse;
+        }
+
+        tr,
+        th,
+        td {
+            padding: 10px;
+            text-align: center;
+            border: 2px solid purple;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>This is a Table</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Sr. No</th>
+                <th>Roll No.</th>
+                <th>Name</th>
+                <th>Branch</th>
+                <th>PAN No.</th>
+                <th>Aadhaar No.</th>
+                <th>10<sup>th</sup> Mark</th>
+                <th>12<sup>th</sup> Mark</th>
+                <th>Rank</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>21</td>
+                <td>Anam Siddiqui</td>
+                <td>CSE</td>
+                <td>RO21MIZXI</td>
+                <td>2100251789843</td>
+                <td>90</td>
+                <td>97</td>
+                <td>21</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>51</td>
+                <td>Ravindra Nath Soren</td>
+                <td>CSE</td>
+                <td>MHORTY89</td>
+                <td>525289721437</td>
+                <td>72</td>
+                <td>61</td>
+                <td>100</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>60</td>
+                <td>Prasan Kumar Tiu</td>
+                <td>CSE</td>
+                <td>IOW1M798I</td>
+                <td>2100251789843</td>
+                <td>80</td>
+                <td>81</td>
+                <td>34</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>16</td>
+                <td>Yaana Sinnai</td>
+                <td>CSE</td>
+                <td>RYOZIZXI</td>
+                <td>98437345109</td>
+                <td>95</td>
+                <td>90</td>
+                <td>22</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>45</td>
+                <td>Tejas Munda Boop</td>
+                <td>CSE</td>
+                <td>JO21MRITI</td>
+                <td>762194554843</td>
+                <td>78</td>
+                <td>88</td>
+                <td>31</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>
